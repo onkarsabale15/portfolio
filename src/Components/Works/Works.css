@@ -1,0 +1,126 @@
+.works{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 4rem;
+}
+
+.works1 :nth-child(1){
+    font-size: 2rem;
+}
+
+.works1 :nth-child(2){
+    font-size: 4rem;
+}
+
+
+.w-right{
+    position: relative;
+}
+.w-mainCircle{
+    left: 9rem;
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 2rem;
+    background: white;
+}
+.w-mainCircle>*{
+    position: absolute;
+}
+.w-mainCircle :nth-child(1){
+    top: -3rem;
+    left: 6rem;
+}
+.w-mainCircle :nth-child(2){
+    top: 5rem;
+    left: -3rem;
+}
+.w-mainCircle :nth-child(3){
+    left: 6rem;
+    top: 5rem;
+}
+.w-mainCircle :nth-child(4){
+    left: 15rem;
+    top: 5rem;
+}
+.w-mainCircle :nth-child(5){
+    top: 14rem;
+    left: 6rem;
+}
+.w-secCircle{
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    box-shadow:  var(--smboxShadow);
+    background: white;
+}
+.w-secCircle > img{
+    transform: scale(0.7);
+}
+.w-backCircle{
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+.blueCircle{
+    background: #1949B8;
+    left: 18rem;
+    top: 0rem;
+}
+.yellowCircle{
+    background: yellow;
+    top: 9rem;
+    left: 18rem;
+}
+.w-button{
+
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+}
+.w-button:hover{
+    background: white;
+    cursor: pointer;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+  }
+@media screen and (max-width: 480px) {
+    .works {
+      flex-direction: column;
+      height: 55rem;
+      padding: 0;
+      gap: 5rem;
+    }
+  
+    .w-right {
+      display: flex;
+      align-items: flex-start;
+      justify-content:start;
+      transform: scale(0.7);
+    }
+    .w-mainCircle{
+      position: static;
+    }
+    .w-backCircle{
+      left: 8rem!important;
+    }
+  
+  }
