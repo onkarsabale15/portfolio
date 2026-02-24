@@ -45,11 +45,6 @@
     margin-bottom: 0;
 }
 
-.story-text strong {
-    color: var(--color-accent-purple);
-    font-weight: 600;
-}
-
 .about-content {
     margin-bottom: var(--space-3xl);
 }
