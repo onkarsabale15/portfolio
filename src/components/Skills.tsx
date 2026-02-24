@@ -109,7 +109,7 @@ const Skills: React.FC = () => {
             skills: ['AWS', 'Docker', 'CI/CD', 'Git', 'GitHub Actions'],
         },
         {
-            title: 'AI/ML & Data',
+            title: 'Gen AI',
             icon: '🤖',
             color: '#ec4899',
             skills: ['RAG', 'AI Agents', 'MCP', 'LangChain.js'],
