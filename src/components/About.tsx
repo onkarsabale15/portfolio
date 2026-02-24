@@ -89,21 +89,19 @@ const About: React.FC = () => {
                         >
                             <h3 className="story-title">Story So Far</h3>
                             <p className="story-text">
-                                My journey in tech began in 2020 when I started my engineering degree. What started as
-                                curiosity quickly turned into passion. From being part of Google DSC to
-                                diving deep into competitive programming with Python on LeetCode and CodeChef in my second
-                                year, I was constantly pushing my boundaries.
+                                I got into Computer Science because at home, I was the designated person to shout at whenever anything went wrong with the PC 😅. WiFi not working? My fault. Printer not printing? My fault. Computer not turning on? Also my fault 😂. Power cut? Somehow still my fault (Because I didn't pay the bill my father told me to) 🤦.
                             </p>
                             <p className="story-text">
-                                The turning point came when I explored cybersecurity through OWASP Top 10 and bug bounty
-                                programs, which taught me to think like both a builder and a breaker. By my third year,
-                                I had fallen in love with Cyber Security and Full Stack Development, mastering the MERN stack while
-                                building real-world applications.
+                                At that point, I figured I should at least learn how these things work, since I was already being held responsible 😄.<br/> I started with simple programs that did absolutely nothing useful, but felt like a huge achievement 🥳.<br/>Soon, I discovered JavaScript — and like every developer, I now have a love-hate relationship with it. It gives you freedom… and then gives you bugs that question your life choices 😭.
                             </p>
                             <p className="story-text">
-                                In May 2023, I joined Herbs Magic as a Software Engineer, where I honed my skills in
-                                production environments. By May 2024, I moved to Thinkitive, Where I was <strong>runner up at internal Systems Design Competition</strong> and in December 2025 I was <strong>Star Performer of the Year</strong>.
-                                Today, I'm building scalable enterprise solutions and loving every moment of it.
+                                I started with frontend development, but after spending more time fighting CSS than solving actual problems 😤, I moved to backend — where things break logically, not emotionally 😌.<br/> That's where I found my place. Since then, building APIs, microservices, and serverless systems. I enjoy working on problems where things break at scale, race conditions appear out of nowhere, and logs become the only source of truth and emotional support 🫠.
+                            </p>
+                            <p className="story-text">
+                                I've built systems that handle real traffic, integrated queues that work silently in the background, and spent hours staring at dashboards hoping the error rate magically drops 🤞. Somewhere along the journey, debugging stopped being frustrating and started becoming fun. There's something satisfying about tracking down a bug that hides so well it almost deserves respect 🕵️.
+                            </p>
+                            <p className="story-text">
+                                These days, I focus on building scalable and reliable backend systems. My goal is simple: build things that work well, scale properly, and don't break unexpectedly 🚀. And if they do break… at least I know who to shout at.<br/> (Myself.) 😂
                             </p>
                         </motion.div>
                     </div>
