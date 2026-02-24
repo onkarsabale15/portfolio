@@ -1,3 +1,53 @@
+.story-so-far {
+    background: var(--color-bg-tertiary);
+    position: relative;
+    overflow: hidden;
+}
+
+.story-so-far::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--color-accent-purple), transparent);
+}
+
+.story-bg {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.story-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: 0.15;
+    animation: float 20s ease-in-out infinite;
+}
+
+.story-orb-1 {
+    width: 350px;
+    height: 350px;
+    background: var(--color-accent-purple);
+    top: -15%;
+    left: -5%;
+    animation-delay: 0s;
+}
+
+.story-orb-2 {
+    width: 300px;
+    height: 300px;
+    background: var(--color-accent-cyan);
+    bottom: -15%;
+    right: -5%;
+    animation-delay: 10s;
+}
+
 .about {
     background: var(--color-bg-secondary);
     position: relative;
@@ -16,21 +66,9 @@
 
 .story-section {
     max-width: 900px;
-    margin: 0 auto var(--space-3xl);
-}
-
-.story-card {
-    padding: var(--space-2xl);
-}
-
-.story-title {
-    font-size: var(--font-size-3xl);
-    background: var(--gradient-primary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: var(--space-lg);
-    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
 }
 
 .story-text {
