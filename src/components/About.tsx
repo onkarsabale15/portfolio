@@ -92,19 +92,7 @@ const About: React.FC = () => {
                         transition={{ duration: 0.8, delay: 0.2 }}
                     >
                         <p className="story-text">
-                            I got into Computer Science because at home, I was the designated person to shout at whenever anything went wrong with the PC 😅. WiFi not working? My fault. Printer not printing? My fault. Computer not turning on? Also my fault 😂. Power cut? Somehow still my fault (Because I didn't pay the bill my father told me to) 🤦.
-                        </p>
-                        <p className="story-text">
-                            At that point, I figured I should at least learn how these things work, since I was already being held responsible 😄.<br /> I started with simple programs that did absolutely nothing useful, but felt like a huge achievement 🥳.<br />Soon, I discovered JavaScript — and like every developer, I now have a love-hate relationship with it. It gives you freedom… and then gives you bugs that question your life choices 😭.
-                        </p>
-                        <p className="story-text">
-                            I started with frontend development, but after spending more time fighting CSS than solving actual problems 😤, I moved to backend — where things break logically, not emotionally 😌.<br /> That's where I found my place. Since then, building APIs, microservices, and serverless systems. I enjoy working on problems where things break at scale, race conditions appear out of nowhere, and logs become the only source of truth and emotional support 🫠.
-                        </p>
-                        <p className="story-text">
-                            I've built systems that handle real traffic, integrated queues that work silently in the background, and spent hours staring at dashboards hoping the error rate magically drops 🤞. Somewhere along the journey, debugging stopped being frustrating and started becoming fun. There's something satisfying about tracking down a bug that hides so well it almost deserves respect 🕵️.
-                        </p>
-                        <p className="story-text">
-                            These days, I focus on building scalable and reliable backend systems. My goal is simple: build things that work well, scale properly, and don't break unexpectedly 🚀. And if they do break… at least I know who to shout at.<br /> (Myself.) 😂
+                            I got into CS because I was my family's default tech support—if the WiFi, printer, or power failed, it was somehow my fault. I figured I should learn how things work since I was already taking the blame. I started with useless programs, fell into a love-hate relationship with C++, GO, JS, and eventually fled CSS for backend development—where things break logically, not emotionally. Today, I build scalable APIs, microservices, and queue systems, hunting down race conditions and reading logs for emotional support. I love solving complex backend bugs, and my goal is simple: build reliable systems that don't break unexpectedly. (And if they do… at least I know who to blame.)
                         </p>
                     </motion.div>
                 </div>
