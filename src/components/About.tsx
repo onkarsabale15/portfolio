@@ -59,9 +59,21 @@ const About: React.FC = () => {
             icon: '🚀',
         },
         {
+            year: 'May 2025',
+            title: 'Promotion',
+            description: 'Got Promoted to SWE - 2',
+            icon: '⭐',
+        },
+        {
             year: 'December 2025',
             title: 'Star Performer of the Year',
             description: 'Recognized as Star Performer at Thinkitive',
+            icon: '🏆',
+        },
+        {
+            year: 'August 2026',
+            title: '1st Switch',
+            description: 'Switched from Thinkitive to a US based remote startup',
             icon: '🏆',
         },
     ];
