@@ -17,13 +17,7 @@ const ExperienceComponent: React.FC = () => {
             period: 'Aug 2026 - Present',
             location: 'New York, US (Remote)',
             description: [
-                "Built an EHR Bridge with the integration of 11+ EHR's",
-                'Implemented Redis-based idempotency, request deduplication, and distributed locking to safely handle high-concurrency external API calls',
-                'Optimized Lambda deployments by reducing package size from ~230MB to 43MB, cutting deployment time from 17 min to 2.5 min.',
-                'Implemented end-to-end observability using Open Telemetry and SigNoz, improving debugging and reducing MTTR',
-                'Built Disaster recovery compliant system',
-                'Migrated services from .Net and Python to Node.js which handeled ~85 million requests per month',
-            ],
+                ""],
             technologies: ['TypeScript', 'Node.js', 'NestJS', 'AWS', 'PostgreSQL', 'Serverless', 'Redis', 'EHR Integration', 'FHIR-R4', 'Open Telemetry', 'MicroServices' ],
         },
         {
