@@ -16,8 +16,6 @@ const ExperienceComponent: React.FC = () => {
             role: 'Software Engineer',
             period: 'Aug 2026 - Present',
             location: 'New York, US (Remote)',
-            description: [
-                ""],
             technologies: ['TypeScript', 'Node.js', 'NestJS', 'AWS', 'PostgreSQL', 'Serverless', 'Redis', 'EHR Integration', 'FHIR-R4', 'Open Telemetry', 'MicroServices' ],
         },
         {
